@@ -37,7 +37,7 @@ public class MyClass {
         Boolean iii = true;
         Character ooo = 121;
 
-        System.out.println(i, j, k); //переменных много, чтобы их вывести на консоль нужно все перечислять?
+        System.out.println(ii); //переменных много, чтобы их вывести на консоль нужно все перечислять?
 
 
         int x = 99;

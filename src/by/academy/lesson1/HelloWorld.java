@@ -43,7 +43,7 @@ public class HelloWorld {
         return f;
     }
     public boolean isG() {
-        return G;
+        return g;
     }
     public char getH() {
         return h;
@@ -52,35 +52,35 @@ public class HelloWorld {
 
 
     public void setA(byte a) {
-        this.a = a11;
+        this.a = a;
     }
 
-    public void setB(short b) {
-        this.b = b11;
+   public void setB(short b) {
+        this.b = b;
     }
 
     public void setC(int c) {
-        this.c = c2;
+        this.c = c;
     }
 
     public void setD(long d) {
-        this.d = d11;
+        this.d = d;
     }
 
     public void setE(float e) {
-        this.e = e11;
+        this.e = e;
     }
 
     public void setF(double f) {
-        this.f = f11;
+        this.f = f;
     }
 
     public void setG(boolean g) {
-        this.g = g11;
+        this.g = g;
     }
 
     public void setH(char h) {
-        this.h = h11;
+        this.h = h;
     }
 
     }
