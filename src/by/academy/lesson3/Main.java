@@ -2,16 +2,23 @@ package by.academy.lesson3;
 
 import by.academy.lesson1.HelloWorld;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
 //                                                                                                        задание 1
-        //                                                                  1 цикл
-        int x = 1;
+
 
         Cat cat = new Cat();
-        System.out.println(cat);
+        System.out.println(cat);//                                                                    к заданию 2
         String Name = cat.getName();
 
+        boolean w;
+        w = Name.equals(cat.name2);//                                                                 к заданию 2
+        System.out.println("Первое имя = второму " +w);
+
+        //                                                                  1 цикл
+        int x = 1;
         int Age = cat.getAge();
 
         while (x <= 10) {
@@ -33,32 +40,44 @@ public class Main {
             System.out.println(i + " имя " + newName + " возраст " + newAge);
 
         }
-        //                                                                  3 цикл (доделать)
+        //                                                                  3 цикл
         int y = 1;
 
         do {
+            System.out.println(y + " имя " + Name + " возраст " +Age);
             y++;
         } while (y <= 10);
         System.out.println(y);
 
 
-//                                                                          4 цикл (доделать)
-        int arr[] = new int[5];
-        arr[0] = 4;
-        arr[1] = 2;
-        arr[2] = 6;
-        arr[3] = 7;
-        arr[4] = 8;
+//                                                                          4 цикл
+        int[] cats = new int[5];
+        cats[0] = 4;
+        cats[1] = 2;
+        cats[2] = 6;
+        cats[3] = 7;
+        cats[4] = 8;
 
-        catMethod(arr);
+        for (int i = 0; i < 5; i++) {
+            System.out.println(cats[i]);
+        }
+
+
+        catMethod(cats);
     }
 
         private static void catMethod(int[] arr) {
             for (int i = 0; i < arr.length; i++) {
-               int t = (int)Math.random()+2;
 
+                int a = 1;
+                int b = 28;
 
-            System.out.println("Котик № " + i + " лет " + t);
+               int t = (int)(a + Math.random()*b);
+
+                Random random = new Random();
+                int nName = random.nextInt();
+
+            System.out.println("Котик " + nName + " № " + i + " лет " + t);
         }
     }
 

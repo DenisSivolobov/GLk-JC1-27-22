@@ -6,6 +6,9 @@ public class Cat {
     private int age = 10;
 
 //                                                                                           задание 2
+
+    public String name2 = name;
+
     public String toString() {
         return "Cat " + "name " + name + " age " + age;
     }
