@@ -7,19 +7,15 @@ public class Cat {
 
 //                                                                                           задание 2
 
+    public Cat(String name) {
+        this.name = name;
+    }
+
     public String name2 = name;
 
     public String toString() {
         return "Cat " + "name " + name + " age " + age;
     }
-
-
-
-
-
-
-
-
 
 
 

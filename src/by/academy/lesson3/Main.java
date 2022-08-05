@@ -1,7 +1,5 @@
 package by.academy.lesson3;
 
-import by.academy.lesson1.HelloWorld;
-
 import java.util.Random;
 
 public class Main {
@@ -9,8 +7,10 @@ public class Main {
 //                                                                                                        задание 1
 
 
-        Cat cat = new Cat();
+        Cat cat = new Cat("");
+
         System.out.println(cat);//                                                                    к заданию 2
+
         String Name = cat.getName();
 
         boolean w;
