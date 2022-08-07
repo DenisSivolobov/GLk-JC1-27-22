@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Matrix {
 
-    public String gDouble() {
+    public String gInt() {
         Random random = new Random();
-        StringBuilder n = new StringBuilder(String.valueOf(random.nextDouble(0, 10)));
+        StringBuilder n = new StringBuilder(String.valueOf(random.nextInt(0, 10)));
         return n.toString();
     }
 
