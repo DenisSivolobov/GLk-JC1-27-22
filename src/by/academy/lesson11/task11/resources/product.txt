@@ -1,0 +1,4 @@
+Product{id=1, name='хлеб', data='06.09.2022'}
+Product{id=2, name='масло', data='04.09.2022'}
+Product{id=3, name='орехи', data='01.09.2022'}
+Product{id=4, name='сыр', data='02.09.2022'}
